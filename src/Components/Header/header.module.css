@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--gray-700);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 100%;
+  position: relative;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  max-width: 60rem;
+  gap: 0.8rem;
+  position: absolute;
+  top: 17.4rem;
+}
+
+.form > input {
+  flex: 1;
+  height: 100%;
+  padding: 1.6rem;
+  outline: none;
+  border-radius: 0.8rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+}
+
+.form > input::placeholder {
+  color: var(--gray-300);
+}
+
+.form > button {
+  display: flex;
+  background-color: var(--blue-dark);
+  border: none;
+  border-radius: 0.8rem;
+  align-items: center;
+  padding: 0 1.6rem;
+  color: var(--gray-100);
+  font-weight: 700;
+  font-size: 1.4rem;
+  gap: 1rem;
+}
